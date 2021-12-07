@@ -1,10 +1,10 @@
 const { MongoClient } = require('mongodb');
 
 // For local development
-// const URL = 'mongodb://127.0.0.1:27017';
+const URL = process.env.URL || 'mongodb://127.0.0.1:27017';
 const DB_NAME = 'StoreManager';
 
-const URL = 'mongodb+srv://user:pass@testcluster.5z58z.mongodb.net/StoreManager?retryWrites=true&w=majority';
+// URL = mongodb+srv://user:pass@testcluster.5z58z.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
 
 // To run tests
 // const MONGO_DB_URL = 'mongodb://mongodb:27017/StoreManager';
