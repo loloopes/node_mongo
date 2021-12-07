@@ -1,4 +1,4 @@
-#	First online CRUD API deployed by heroku with Atlas+MongoDB.
+#	First online CRUD REST API deployed by heroku with Atlas+MongoDB.
 
 Accessible to everyone. The application should be a sleep at first so expect a little delay at first. =)
 
@@ -10,5 +10,3 @@ https://serene-plateau-03643.herokuapp.com/products
 > - get '/:id' should return a product for a given valid id
 > - put '/:id' should update a product for a given valid id and return updated product.
 > - delete '/:id' should delete a product for a given valid id
-
-
