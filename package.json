@@ -33,6 +33,9 @@
     "mongodb": "^3.5.9",
     "nodemon": "^2.0.4"
   },
+  "engines": {
+    "node": "14.x"
+  },
   "devDependencies": {
     "chai": "^4.3.4",
     "eslint-config-trybe-backend": "^1.0.3",
