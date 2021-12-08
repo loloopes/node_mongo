@@ -7,8 +7,8 @@ const DB_NAME = 'StoreManager';
 // URL = mongodb+srv://user:pass@testcluster.5z58z.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
 
 // To run tests
-// const MONGO_DB_URL = 'mongodb://mongodb:27017/StoreManager';
-// const DB_NAME = 'StoreManager';
+const MONGO_DB_URL = 'mongodb://mongodb:27017/StoreManager';
+const DB_NAME = 'StoreManager';
 
 let connection = null;
 
@@ -26,7 +26,7 @@ module.exports = async () => {
         },
       )).db(DB_NAME);
   } catch (err) {
-    console.error(err.message);
+    console.error(err);
     process.exit(1);
   }
 };
